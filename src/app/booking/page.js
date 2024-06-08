@@ -107,10 +107,10 @@ export default function Booking() {
                 <div className="flex flex-col items-center gap-4">
                   <CheckIcon className="w-8 h-8 text-green-500" />
                   <div className="text-center">
-                    <h3 className="font-semibold">Booking Confirmed</h3>
+                    <h3 className="font-semibold">Cita Confirmada</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      Your appointment is scheduled for{" "}
-                      {selectedDate.toLocaleDateString()} at {selectedTime}.
+                      Tu cita está agendada para{" "}
+                      {selectedDate.toLocaleDateString()} a las {selectedTime}.
                     </p>
                   </div>
                 </div>

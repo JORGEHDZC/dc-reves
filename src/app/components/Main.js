@@ -181,7 +181,6 @@ export default function Main() {
               width="100%"
               height="400"
               style={{ border: "0" }}
-              allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             />
